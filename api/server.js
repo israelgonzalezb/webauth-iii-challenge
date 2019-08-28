@@ -4,7 +4,7 @@ const cors = require("cors");
 const jwt = require("jsonwebtoken");
 
 const authRouter = require("..auth/auth-router.js");
-const usersRouter = require("../users/users-router.js");
+// const usersRouter = require("../users/users-router.js");
 
 const server = express();
 
